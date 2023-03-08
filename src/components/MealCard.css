@@ -1,0 +1,14 @@
+.icon{
+    z-index: -1;
+}
+.parent{
+    transition: all 1s;
+}
+.parent:hover .icon{
+    z-index: 2;
+}
+.parent:hover .image{
+    opacity: 0.7;
+    
+}
+
